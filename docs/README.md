@@ -162,7 +162,7 @@ code files.txt
 while read -r line; do
 echo $line
 touch -p $line
-done < files.txt\
+done < files.txt
 ```
 
 > [!Important]
@@ -340,7 +340,7 @@ main {
 ### Make and style the menu
 
 ```bash
-cd ../..templates
+cd ../../templates
 mkdir partials
 cd partials
 touch menu.html
